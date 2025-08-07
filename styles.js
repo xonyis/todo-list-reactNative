@@ -8,6 +8,45 @@ export default StyleSheet.create({
     paddingBottom: 50,
     backgroundColor: "#f5f5f5",
   },
+  header: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    marginBottom: 20,
+    paddingHorizontal: 5,
+  },
+  header_title: {
+    fontSize: 24,
+    fontWeight: "bold",
+    color: "#333",
+  },
+  clear_button: {
+    backgroundColor: "#ff4757",
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    borderRadius: 6,
+  },
+  clear_button_text: {
+    color: "#fff",
+    fontSize: 12,
+    fontWeight: "bold",
+  },
+  empty_state: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    paddingVertical: 60,
+  },
+  empty_state_text: {
+    fontSize: 18,
+    color: "#666",
+    marginBottom: 8,
+  },
+  empty_state_subtext: {
+    fontSize: 14,
+    color: "#999",
+    textAlign: "center",
+  },
   todo_item: {
     flexDirection: "row",
     justifyContent: "space-between",
