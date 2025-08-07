@@ -1,0 +1,89 @@
+import { StyleSheet } from "react-native";
+
+export default StyleSheet.create({
+  todo_container: {
+    flex: 1,
+    padding: 10,
+    paddingTop: 75,
+    paddingBottom: 50,
+    backgroundColor: "#f5f5f5",
+  },
+  todo_item: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    marginBottom: 8,
+    padding: 12,
+    backgroundColor: "#fff",
+    borderRadius: 8,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    shadowOpacity: 0.22,
+    shadowRadius: 2.22,
+    elevation: 3,
+  },
+  todo_item_text: {
+    flex: 1,
+    marginLeft: 12,
+    fontSize: 16,
+    color: "#333",
+  },
+  completed: {
+    textDecorationLine: "line-through",
+    color: "#888",
+  },
+  delete_button: {
+    backgroundColor: "#ff6347",
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    borderRadius: 6,
+  },
+  checkbox: {
+    width: 24,
+    height: 24,
+    borderWidth: 2,
+    borderColor: "#ddd",
+    borderRadius: 4,
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#fff",
+  },
+  checkbox_checked: {
+    backgroundColor: "#007AFF",
+    borderColor: "#007AFF",
+  },
+  checkmark: {
+    color: "#fff",
+    fontSize: 16,
+    fontWeight: "bold",
+  },
+  input_container: {
+    flexDirection: "row",
+    marginTop: 20,
+    alignItems: "center",
+  },
+  text_input: {
+    flex: 1,
+    borderWidth: 1,
+    borderColor: "#ddd",
+    borderRadius: 8,
+    padding: 12,
+    marginRight: 10,
+    fontSize: 16,
+    backgroundColor: "#fff",
+  },
+  add_button: {
+    backgroundColor: "#007AFF",
+    paddingHorizontal: 20,
+    paddingVertical: 12,
+    borderRadius: 8,
+  },
+  add_button_text: {
+    color: "#fff",
+    fontSize: 16,
+    fontWeight: "bold",
+  },
+});
